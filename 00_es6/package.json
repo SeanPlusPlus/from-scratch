@@ -1,0 +1,17 @@
+{
+  "name": "from-scratch",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon index.js --exec babel-node --presets latest"
+  },
+  "dependencies": {
+    "console-emoji": "^0.0.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.23.0",
+    "babel-preset-latest": "^6.22.0",
+    "nodemon": "^1.11.0"
+  }
+}
